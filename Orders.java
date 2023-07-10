@@ -1,5 +1,5 @@
 /*
-Based on a method that gives you the balance of a product if you give it the date (FORECAST(date)),
+Based on a method that gives you the balance of a product if you give it the date (let's call it FORECAST(date)),
 implement a Java function that uses that function and tells you how much of a product to order.
 The product must be ordered only if the balance is less than a THRESHOLD amount, and one can order only multiplies
 of a certain BATCH_SIZE of the product'.
