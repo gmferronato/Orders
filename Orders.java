@@ -14,7 +14,7 @@ public class Orders {
 
     int threshold = 1000; // amount below which the order is triggered
     int batch_size = 35; // orders can only be done using multiples of the batch size.
-    String date = "2023-08-06";
+    String date = "2023-08-10";
 
     int balance = forecast(date);
 
