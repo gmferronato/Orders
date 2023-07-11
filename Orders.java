@@ -1,6 +1,6 @@
 /*
 Based on a method that gives you the balance of a product if you give it the date (let's call it FORECAST(date)),
-implement a Java function that uses that function and tells you how much of a product to order.
+implement a function that uses that function and tells you how much of a product to order.
 The product must be ordered only if the balance is less than a THRESHOLD amount, and one can order only multiplies
 of a certain BATCH_SIZE of the product'.
 */
@@ -52,11 +52,11 @@ public class Orders {
       System.out.println("You now have only " + balance + " pieces left");
       System.out.println("You have to order " + quantity_to_order + " pieces");
       System.out.println("Which means " + units + " units of the batch size");
-      System.out.println("With the new order your balance will be of " + (balance + quantity_to_order) + " units");
+      System.out.println("With the new order your balance will be of " + (balance + quantity_to_order) + " units.");
     }
     else {
       quantity_to_order = 0;
-      System.out.println("No need to order anything.");
+      System.out.println("Balance is above threshold. No need to order anything.");
     }
     return quantity_to_order;
   }
