@@ -1,4 +1,5 @@
 /* This is a function that returns a balance taking a date as input */
+/* I still need to implement the function properly */
 
 public class Forecast {
     public static void main(String[] args) {
